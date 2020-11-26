@@ -1,7 +1,15 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
-import store from './store'
+import router from './router'   //  ./router/index.js
+import store from './store'		//  ./store/index.js
+
+import 'normalize.css'
+
+// 使用element-ui
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
+
 
 Vue.config.productionTip = false
 
